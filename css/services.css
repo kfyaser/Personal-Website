@@ -1,0 +1,66 @@
+/*====================services===================*/
+
+.services {
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+    padding-top:  7rem;
+
+
+}
+
+.services__paragraph {
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(102, 101, 101);
+
+}
+
+.services__text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.services__paragaraph1 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.services__section1 {
+    background: #99979733;
+    display: inline-block;
+    padding: 3rem 4rem;
+    border-radius: 15px;
+}
+
+.services--icon {
+    font-size: 4rem;
+    margin: 1rem;
+    text-align: center;
+    transform: translate(50%);
+    color: #FD6400;
+}
+
+.services__h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #FD6400;
+}
+
+.services__p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgba(106, 104, 104, 0.618);
+}
+
+.services__sections {
+    display: flex;
+    gap: 6rem;
+    margin-top: 2rem;
+    padding: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/*==========================header style===============================*/
+.header__div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    /* margin: 1rem; */
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    padding-right: 3rem;
+    background: #000000;
+
+
+}
+
+.header__logo {
+    background: linear-gradient(to right, rgb(255, 106, 0), rgb(251, 55, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 1.7rem;
+
+}
+
+.header__ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.header__li {}
+
+.header__a {
+    text-decoration: none;
+    color: rgb(176, 179, 181);
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+
+}
+
+.header .active {
+    color: orangered;
+}
+
+.header__a:hover {
+    color: rgb(255, 77, 0);
+}
+
+.header__hire-me {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgb(255, 89, 0);
+    padding: 9px 25px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.header__hire-me:hover {
+    background: rgb(255, 72, 0);
+}
+
+
+/*==============================footer===============*/
+.footer {
+    background: #6f6e6e32;
+    padding: 1rem;
+}
+
+.footer__logo {
+    background: linear-gradient(to right, rgb(235, 128, 5), rgb(251, 34, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.footer__icon {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.icon-div {}
+
+.footer__tel {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(30%);
+    margin: 2rem;
+
+
+
+}
+
+.tel-email {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.email-tel {
+    display: inline;
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.footer__end-text {
+    display: flex;
+    color: #605f5f;
+    border-top: 2px solid white;
+    text-align: center;
+    width: 50%;
+    transform: translateX(42%);
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    justify-content: center;
+
+}

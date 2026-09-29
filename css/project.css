@@ -1,0 +1,143 @@
+
+/*==========================header style===============================*/
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+
+}
+
+.main .main__section1,
+.main__section2 {
+    width: 50%;
+
+
+}
+
+.main__section1 {
+    padding-left: 3rem;
+}
+
+/*===============section 1==============*/
+.main__p1 {
+    color: rgba(159, 157, 157, 0.888);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.main__p2 {
+    color: rgb(206, 206, 205);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.main__h2 {
+    color: orangered;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.main__icon {
+    display: inline-flex;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    gap: 1rem;
+
+}
+
+.main__icon {
+    color: #FD6400;
+}
+
+.main__btn {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+
+
+}
+
+.main__btn1 {
+    font-size: 1rem;
+    font-weight: 600;
+    background: #FD6400;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+
+}
+
+.main__btn1:hover {
+    background: #fd5400;
+}
+
+.main__btn2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 18px;
+    text-decoration: none;
+    border: 3px solid rgb(158, 158, 158);
+    transition: background 0.3s ease;
+
+}
+
+.main__btn2:hover {
+    background: #98949056;
+}
+
+/*-----------section3-----------*/
+.main__section3 {
+    display: inline-flex;
+    background: rgba(194, 191, 191, 0.295);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+
+}
+
+.main__section3__div {
+    border-right: 2px solid rgba(147, 144, 144, 0.796);
+    padding: 10px;
+
+
+}
+
+.main__section3-h4 {
+    color: #FD6400;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.main__section-p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+/*===============section 2================ */
+
+
+.main__img-background {
+    clip-path: circle(30% at center);
+    background: rgb(255, 68, 0);
+    transform: translate(-10%, -10%);
+
+}
+
+.main__section2-img {
+    width: 50%;
+    transform: translate(45%, 10%);
+
+}
